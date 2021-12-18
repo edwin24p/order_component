@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Order Component</title>
+  </head>
+  <body>
+    <main>
+      <!--Container-->
+      <div class="container flex-row jc-center ai-c">
+        <!--Card-->
+        <div class="card flex-column border">
+          <!--Image-->
+          <img
+            class="border-top"
+            src="images/illustration-hero.svg"
+            alt="hero"
+          />
+
+          <!--Content-->
+          <div class="card__content p-5 pb-4">
+            <h1>Order Summary</h1>
+            <p class="py-3">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <!--Pricing-->
+            <div class="card__pricing flex-row jc-sb py-3 ai-c border">
+              <div class="card__price flex-row ai-c">
+                <img src="images/icon-music.svg" alt="music" class="mx-3" />
+                <div>
+                  <h3>Annual Plan</h3>
+                  <p>$59.99/year</p>
+                </div>
+              </div>
+              <a href="#" class="mx-4">Change</a>
+            </div>
+
+            <!--Buttons-->
+            <button class="mt-4 py-3 border btn-primary">
+              Proceed to Payment
+            </button>
+            <button class="mt-2 py-3 border btn-cancel">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
